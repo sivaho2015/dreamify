@@ -1,0 +1,255 @@
+.body {
+  width: 100vw;
+ 
+}
+
+.albumInfoContainer {
+  display:inline-block;
+  vertical-align: top;
+  margin-top: 2rem;
+  width:65%;
+}
+
+.spotifyContainer {
+  display:inline-block;
+  vertical-align: top;
+  text-align: right;
+  margin-top: 2rem;
+  margin-left:20px;
+  width:30%;
+}
+
+.fullWidthContainer {
+  display:inline-block;
+  vertical-align: top;
+  margin-top: 2rem;
+  width:100%;
+
+}
+
+.bodytext {
+  font-size:1em;
+  line-height: 1.5em;
+
+}
+
+.caps {
+  text-transform: capitalize;
+}
+
+.project-title {
+  font-size:128px;
+  line-height: 1em;
+  font-weight:bold;
+  text-transform: uppercase;
+  background-image: 
+    linear-gradient(to right, #ff00d0, #b900f4,#2d39ff,#5ef4ff); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  animation: move 35s linear infinite;
+  margin-bottom:30px;
+  overflow-wrap: break-word;
+}
+
+.page-title {
+  font-size:62px;
+  line-height: 1em;
+  font-weight:bold;
+  text-transform: uppercase;
+  background-image: 
+    linear-gradient(to right, #ff00d0, #b900f4,#2d39ff,#5ef4ff); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  animation: move 35s linear infinite;
+  margin-bottom:30px;
+  overflow-wrap: break-word;
+
+}
+
+.track-container {
+  display:block;
+  
+}
+
+.text-container {
+  display:inline-block;
+  width:60%;
+}
+
+.smaller {
+font-size:1.2em;
+margin:10px 0 30px 0;
+}
+
+.track-thumb-container {
+  display:inline-block;
+ width:40%;
+  vertical-align: top;
+  height:100%;
+  padding:0px;
+  margin-bottom: 20px;
+}
+
+.flexbox {
+  display:block;
+  min-width:70%;
+  padding: 0;
+  margin: 0;
+}
+
+.sub-head {
+  font-size:1em;
+  line-height: .7em;
+  text-transform: uppercase;
+  font-weight:bold;
+  text-align: left;
+  margin:0px;
+  padding:0px;
+}
+
+.learn-more {
+  font-size:1em;
+  line-height: .7em;
+  text-transform: uppercase;
+  text-align: left;
+  margin:0px;
+  padding:0px;
+}
+
+.heading {
+  font-size:1.2em;
+  line-height: .7em;
+  text-transform: uppercase;
+  font-weight:bold;
+  text-align: left;
+  margin-bottom:20px;
+  padding:0px;
+}
+
+.heading-lg {
+  font-size:1.8em;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  font-weight:500;
+  text-align: left;
+  margin-bottom:20px;
+  padding:0px;
+}
+
+.artist-name, .track-name, .genre-name, .album-name {
+  font-size:2.8em;
+  line-height: 1.1em;
+  margin:10px 0 30px 0;
+  text-transform: capitalize;
+}
+
+.sub-name {
+  font-size:1.8em;
+  line-height: 1.1em;
+  margin:10px 0 30px 0;
+  text-transform: capitalize;
+}
+
+.top-space{
+  margin-top:10px;
+}
+
+.track-title {
+  font-size:2em;
+  line-height: 1.8em;
+}
+
+.track-thumb-container img {
+ 
+  width:100%;
+  padding: 0 0 0 20px;
+
+}
+
+a {
+  color:#3477eb;
+}
+
+.thirds {
+  width:33%;
+  display:inline-block;
+  vertical-align: top;
+}
+
+.halves {
+  width:50%;
+  display:inline-block;
+  vertical-align: top;
+}
+
+.center-align {
+  width:100%;
+  text-align: left;
+  padding-bottom:20px;
+}
+
+.left-correct {
+  margin-left:-10px;
+}
+
+.submit-btn {
+  margin-left: 10px;
+  width: 180px;
+  height: 36px;
+  border: none;
+  padding: 2px 16px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+  background: #f00093;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  line-height:1.3em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.submit-btn:hover {
+  background: #c00076;
+  color: #fff;
+}
+
+.submit-btn:active {
+  background: #cf18a5;
+}
+
+
+.input-container .login-input {
+  margin: 10px 0;
+  width: 250px;
+  height: 36px;
+  border: none;
+  padding: 2px 16px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  outline: none;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .albumInfoContainer {
+    display:block;
+    vertical-align: top;
+    margin-top: 2rem;
+    width:100%;
+  }
+  .spotifyContainer {
+    display:block;
+    vertical-align: top;
+    text-align: left;
+    margin-top: 2rem;
+    margin-left:20px;
+    width:100%;
+  }
+
+  .project-title {
+    font-size:86px;
+  }
+}
